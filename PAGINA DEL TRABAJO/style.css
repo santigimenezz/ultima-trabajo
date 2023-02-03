@@ -1,0 +1,367 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    max-width: 1350px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+ 
+    
+}
+
+.cabecera{
+    display: grid;
+    grid-template-columns: 25% 60% 15% ;
+    align-items: center;
+    text-align: center;
+    height: 87px;
+}
+
+.cabecera-buscador{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+
+nav{
+   border:1px solid rgb(255, 102, 0);
+   height: 60px;
+   background-color: rgb(241, 97, 0);
+   border-bottom: 1px solid rgba(0, 0, 0, 0.247);
+   
+}
+
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+    height: 18px;
+    
+ 
+    
+}
+nav ul{
+    text-align: center;
+align-items: center;
+margin-top: 20px;
+
+
+}
+
+nav ul li a {
+   margin: 50px;
+font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+      
+}
+
+a:hover{
+    color: white;
+}
+
+.boton input{
+    background-color: rgb(241, 97, 0);
+    color: white;
+    height: 36px;
+    width: 173px;
+    border: white;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.buscador input:hover{
+    border: 1px solid black;
+}
+
+
+.logos img{
+    width: 60px;
+}
+
+.iconos img{
+    width: 25px;
+    padding: 4px;
+    transition: transform 0.2s;
+}
+
+.iconos img:hover{
+    transform: scale(1.1);
+
+}
+
+ul li a {
+    text-decoration: none;
+    
+    
+}
+ul li{
+    list-style: none;
+}
+
+
+
+
+
+.carrusel{
+    height: 500px;
+    background-color: black;
+}
+
+.productos-cajas img{
+    width: 275px;
+    transition: transform 0.5s;
+}
+
+.productos-cajas img:hover{
+    transform: scale(1.07);
+}
+
+.productos-cajas input{
+    background-color: rgb(241, 97, 0);
+    color: white;
+    border-radius: 4px;
+    border: white;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    
+}
+
+.productos-cajas a input{
+    transition: transform 0.09s;
+}
+
+.productos-cajas a input:hover{
+    transform: scale(1.03);
+    color: white;
+    background-color: black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.productos-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    text-align: center;
+    row-gap: 100px;
+}
+
+.carrusel{
+    width: 1300px;
+}
+
+.carrito{
+    width: 40px;
+   padding-left: 40px;
+ 
+}
+
+.buscar-grid{
+    display: grid;
+    grid-template-columns:1fr;
+    text-align: center; 
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center; 
+    margin-top: 40px;
+    border-top: 1px solid black;
+    height: 10px;
+}
+
+
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom:60px;
+    font-size: 40px;
+}
+h3{
+    margin-top: 15px;
+    height: 20px;
+    font-size: 25px;
+   
+}
+h4{
+    color: rgb(0, 102, 255);
+}
+
+
+a{
+    color: black;
+}
+
+
+.logo-productos{
+   margin-bottom: 30px;
+}
+
+
+.grid-iconos{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    align-items: center;
+    text-align: center;
+}
+
+.buscador input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(221, 213, 213);
+    border-radius: 4px;
+}
+
+.footer{
+    height: 80px;
+}
+
+.footer-grid{
+    background-color: rgb(241, 97, 0);    
+    display: grid;
+    grid-template-columns: 80% 20%;
+    text-align: center;
+    margin-top: 30px;
+  
+    
+
+}
+ 
+.iconos-footer{
+    position: relative;
+    top: 15px;
+   
+}
+
+.reloj img{
+    width: 500px;
+    margin-top: 70px;
+    margin-left: 170px;
+    transition: transform 0.5s;
+}
+.reloj img:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+.reloj{
+display: grid;
+
+
+
+}
+
+.grid-reloj{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 600px;
+    
+
+   
+}
+
+.caracteristicas-grid{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    height: 600px;
+    text-align: center;
+
+}
+
+
+.botones-reloj{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+}
+
+
+.botones input{
+    width: 120px;
+    height: 36px;
+    margin: 10px;
+    background-color: rgb(241, 97, 0);   
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+    border: white;
+    border-radius: 4px;
+    transition: transform 0.09s;
+
+}
+
+.botones input:hover{
+    transform: scale(1.03);
+    color: white;
+    background-color: black;
+}
+
+
+.espejo img{
+    width: 400px;
+}
+
+.organizador img{
+    width: 350px;
+}
+
+.linga img{
+    width: 400px;
+}
+
+.soporte img{
+    width: 480px;
+    margin-top: 100px;
+}
+
+.lapiz img{
+    width: 400px;
+}
+
+.reflector-grande img{
+    margin-top: 110px;
+}
+
+.sweet img{
+    width: 420px;
+   
+}
+.depilador-facial img{
+    width: 400px;
+}
+
+.reflector-chico img{
+    width: 370px;
+}
+
+.cabina img{
+    width: 450px;
+}
